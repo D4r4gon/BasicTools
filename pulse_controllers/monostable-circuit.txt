@@ -1,0 +1,2 @@
+Use: The monostable circuit takes an input pulse of X length and reduces it to only one tick to prevent feedback corrupting
+sequence data such as a counter.
