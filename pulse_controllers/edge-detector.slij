@@ -1,0 +1,122 @@
+{
+  "HEADER": {
+    "TAG": "IC",
+    "APP_VERSION": 71
+  },
+  "COMPONENTS": [
+    {
+      "ID": 262845756,
+      "TAG": "TOGGLE_BUTTON",
+      "X": -102.57585,
+      "Y": 259.34216,
+      "INPUTS": [],
+      "ARGUMENTS": {
+        "LABEL": "📩Input",
+        "ENABLED": false
+      }
+    },
+    {
+      "ID": 108744739,
+      "TAG": "LIGHT_BULB",
+      "X": 234.37277,
+      "Y": 300.64386,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 108890777,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "LABEL": "🔺️Pulse"
+      }
+    },
+    {
+      "ID": 241779694,
+      "TAG": "LIGHT_BULB",
+      "X": 234.37277,
+      "Y": 391.08936,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 157098059,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "LABEL": "🔻Pulse"
+      }
+    },
+    {
+      "ID": 154155142,
+      "TAG": "SR_LATCH",
+      "X": 127.63204,
+      "Y": 347.02136,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 157098059,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 108890777,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ]
+    },
+    {
+      "ID": 108890777,
+      "TAG": "AND_GATE",
+      "X": 127.27736,
+      "Y": 270.36868,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 262845756,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 154155142,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ]
+    },
+    {
+      "ID": 157098059,
+      "TAG": "AND_GATE",
+      "X": 128.64023,
+      "Y": 425.1897,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 154155142,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 106998235,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ]
+    },
+    {
+      "ID": 106998235,
+      "TAG": "NOT_GATE",
+      "X": 23.427364,
+      "Y": 460.9992,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 262845756,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "LABEL": "Dara🐲"
+      }
+    }
+  ],
+  "DEPENDENCIES": {}
+}
