@@ -1,0 +1,3 @@
+Use: The pulse detector is useful for seeing increadably short pulses such as one tick long ones caused by the monostable.
+This can detect both high and low pulses and need to be reset via the reset pin on the bottom left.
+Uploader: D4r4dragon
